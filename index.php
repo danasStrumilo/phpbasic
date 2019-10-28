@@ -1,0 +1,2 @@
+<?php
+pint 'lol';
