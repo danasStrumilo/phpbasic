@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>As valdau html</title>
+    
+      <title>As valdau html <?php print 'ir PHP';?> </title>
   </head>
   <body>
-    <h1>Danas  HTML asas</h1>
-    <p>Moku kuti statini turini</p>
+    <h1>Danas  HTML <?php print'ir PHP' ?> asas </h1>
+    <p>Moku kurti statini turini
+    <?php print date('Y-m-d H:i:S');?>
+    </p>
   </body>
 </html>
