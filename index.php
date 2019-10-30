@@ -1,13 +1,21 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    
-      <title>As valdau html <?php print 'ir PHP';?> </title>
-  </head>
-  <body>
-    <h1>Danas  HTML <?php print'ir PHP' ?> asas </h1>
-    <p>Moku kurti statini turini
-    <?php print date('Y-m-d H:i:S');?>
-    </p>
-  </body>
+    <head>
+        <title>php</title>
+        <style>
+            img{
+                width:  <?php print date('s') . '5'; ?>px;
+                heigth: <?php print date('s') . '5'; ?>px;
+            }
+            .bomb{
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bomb">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/61V2cX4JqGL.png" > 
+            <?php print date('s'); ?>
+        </div>
+    </body>
 </html>
